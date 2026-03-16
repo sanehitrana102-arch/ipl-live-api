@@ -1,0 +1,28 @@
+# IPL Live Cricket API 🏏
+
+Free API for IPL live scores, matches, and updates.
+
+## 🚀 API Endpoints
+
+### Base URL: `https://ipl-live-api.vercel.app`
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/` | GET | API info |
+| `/live` | GET | All live matches |
+
+## 📝 Example Response
+
+```json
+{
+  "success": true,
+  "matches": [
+    {
+      "id": 1,
+      "title": "MI vs CSK",
+      "score": "MI 187/5 (18.2 ov)",
+      "status": "Live",
+      "link": "https://www.cricbuzz.com/..."
+    }
+  ]
+}
